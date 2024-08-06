@@ -7,3 +7,39 @@
 body {
     font-family: Arial, sans-serif;
 }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 80px;
+    margin: auto 0;
+    background: #1F2937;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 28px
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
