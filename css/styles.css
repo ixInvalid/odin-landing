@@ -15,7 +15,6 @@ body {
 
 .header {
     height: 80px;
-    margin: auto 0;
     background: #1F2937;
 }
 
@@ -42,4 +41,52 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    height: calc(50vh - 80px);
+    background: #1F2937;
+}
+
+.hero .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background: #3882F6;
+    height: 32px;
+    width: 120px;
+}
+
+.hero-image {
+    height: 60%;
+    width: 50%;
+    background: #808080;
 }
