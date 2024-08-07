@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    height: 80px;
+    height: 100px;
     background: #1F2937;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .hero {
-    height: calc(50vh - 80px);
+    height: calc(50vh - 50px);
     background: #1F2937;
 }
 
@@ -81,7 +81,7 @@ body {
     font-weight: bold;
     color: #F9FAF8;
     background: #3882F6;
-    height: 32px;
+    height: 40px;
     width: 120px;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .info {
-    height: 50vh;
+    height: calc(50vh - 50px);
 }
 
 .info .container {
@@ -159,7 +159,7 @@ body {
 }
 
 .cta {
-    height: calc(50vh - 80px);
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,6 +194,23 @@ body {
     font-weight: bold;
     color: #F9FAF8;
     background: #3882F6;
-    height: 32px;
+    height: 40px;
     width: 120px;
+}
+
+.footer {
+    height: 100px;
+    background: #1F2937;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #F9FAF8;
 }
